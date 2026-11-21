@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://taskfile.dev/schema.json
+
+version: '3'
+
+silent: true
+
+tasks:
+  new:
+    cmds:
+      - npx qiita new
+    desc: '新しい記事を追加'
+
+  preview:
+    cmds:
+      - npx qiita preview
+    desc: '記事のプレビュー'
