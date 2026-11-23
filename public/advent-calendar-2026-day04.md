@@ -1,7 +1,7 @@
 ---
 title: GitHubからパッチファイルを取得して適用する方法
 tags:
-  - ''
+  - 'GitHub'
 private: true
 updated_at: ''
 id: null
