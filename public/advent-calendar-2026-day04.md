@@ -24,7 +24,9 @@ GitHubのコミット、プルリクエストのURLの末尾に`.patch`を付け
 
 以下の形式で取得できる。
 
+```
 https://github.com/owner/repository/commit/<commit-hash>.patch
+```
 
 curlを利用する場合は以下のコマンドで保存できる。
 
@@ -36,7 +38,9 @@ curl -fL https://github.com/owner/repository/commit/<commit-hash>.patch -o fix.p
 
 プルリクエストも同じ形式で取得できる。
 
+```
 https://github.com/owner/repository/pull/123.patch
+```
 
 ```bash
 curl -fL https://github.com/owner/repository/pull/123.patch -o fix.patch
