@@ -7,8 +7,8 @@ silent: true
 tasks:
   new:
     cmds:
-      - npx qiita new
-    desc: '新しい記事を追加'
+      - npx qiita new {{.CLI_ARGS}}
+    desc: '新しい記事を追加（例: task new -- my-article）'
 
   preview:
     cmds:
